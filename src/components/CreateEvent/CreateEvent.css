@@ -1,0 +1,40 @@
+
+.create_event_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create_event_content_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    background-color: white;
+    padding: 40px 5%;
+    margin: 100px 0;
+    box-shadow: 0 10px 40px  #EDE5FF;
+}
+.create_event_content_container_title {
+    color: #8456ED;
+}
+.create_event_time {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.create_event_content_container_button, .create_event_content_container_button_disabled {
+    background-color: #8456ED;
+    color: #F6F2FF;
+    border: none;
+    padding: 8px 12px;
+    width: 70%;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.create_event_content_container_button_disabled {
+    background-color: #e0e0e0;
+    color: #4f4f4f;
+}
