@@ -11,7 +11,7 @@ function App() {
 				<Routes>
 					<Route path="/" element={<LandingPage />} />
 					<Route path="/create" element={<CreateEvent />} />
-          <Route path='/event' element={<EventDetails />} />
+					<Route path="/event" element={<EventDetails />} />
 				</Routes>
 			</div>
 		</BrowserRouter>

@@ -10,9 +10,9 @@ function EventProvider({ children }) {
 		endDate: "",
 		startTime: "",
 		endTime: "",
-        eventImage: "",
-        streetAddress: "",
-        mainAddress: ""
+		eventImage: "",
+		streetAddress: "",
+		mainAddress: "",
 	});
 	return (
 		<EventContext.Provider value={{ eventDetails, setEventDetails }}>
@@ -20,5 +20,5 @@ function EventProvider({ children }) {
 		</EventContext.Provider>
 	);
 }
-export const useEventValue = () => useContext(EventContext)
+export const useEventValue = () => useContext(EventContext);
 export default EventProvider;

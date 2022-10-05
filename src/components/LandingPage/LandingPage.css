@@ -68,3 +68,29 @@
     color: #FFFFFF;
     cursor: pointer;
 }
+.landing_page_right_section_description_top{
+    display: none;
+}
+
+@media only screen and (max-width: 850px) {
+    .landing_page_container{
+       flex-direction: column;
+    }
+    .landing_page_right_section_description_bottom {
+        display: none;
+    }
+    .landing_page_right_section_description_top{
+        display: block;
+    }
+    .landing_page_right_button_container {
+        justify-content: center;
+    }
+    .landing_page_right_title_one, 
+    .landing_page_right_title_two, 
+    .landing_page_right_title_three, 
+    .landing_page_right_description, 
+    .landing_page_right_button {
+        text-align: center;
+        padding: 5px 0;
+    }
+}

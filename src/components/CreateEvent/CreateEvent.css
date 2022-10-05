@@ -38,3 +38,15 @@
     background-color: #e0e0e0;
     color: #4f4f4f;
 }
+
+@media only screen and (max-width: 1150px) {
+    .create_event_content_container{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .create_event_content_container{
+        width: 80%;
+    }
+}
